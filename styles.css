@@ -1,0 +1,94 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3e2e2;
+  font-size: 1.125rem;
+}
+main {
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container {
+  background: #fff;
+  padding: 1rem;
+}
+.addItemWrapper {
+  text-align: center;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  /* background-color: #0cd4d1; */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.predefined-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.send-button {
+  display: flex;
+  /* margin: 20px auto; */
+  padding: 10px 20px;
+  align-items: center;
+}
+.btn-wrapper {
+  margin-block: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-wrapper img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
